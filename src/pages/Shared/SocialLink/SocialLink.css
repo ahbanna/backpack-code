@@ -1,0 +1,21 @@
+.social-icon {
+  list-style: none;
+}
+.social-link ul {
+  padding: 0;
+  display: flex;
+}
+.social-icon li {
+  margin-right: 15px;
+}
+.social-icon li:hover a {
+  /* color: #ff4646; */
+  transition: 0.3s;
+}
+.social-icon li a {
+  color: #fff;
+}
+.social-link ul li:hover {
+  transform: rotate(360deg);
+  transition: 0.5s;
+}
