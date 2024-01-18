@@ -1,5 +1,4 @@
 import React from "react";
-import Jsxnote from "../Jsxnote/Jsxnote";
 import useTitle from "../../../hooks/useTitle";
 
 const Home = () => {

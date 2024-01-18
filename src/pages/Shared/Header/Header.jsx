@@ -3,8 +3,8 @@ import { Button, Container, Image, Nav, Navbar } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
 import {} from "react-router-dom";
 import "./Header.css";
-import { AuthContext } from "../../providers/AuthProvider";
-import logo from "../../assets/logo.png";
+// import { AuthContext } from "../../providers/AuthProvider";
+import logo from "../../../assets/images/logo.png";
 import Headroom from "react-headroom";
 
 const Header = () => {
@@ -41,7 +41,9 @@ const Header = () => {
   };
   return (
     <div className="header-area">
-      <Headroom>    // this is for when scroll to up, header show 
+      <Headroom>
+        {" "}
+        // this is for when scroll to up, header show
         <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
           <Container>
             <NavLink to="/">
